@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Herbolaria Andina</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
@@ -14,7 +14,7 @@
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./assets/images/One-Piece-Logo.png" alt="One Piece Logo"> Conf OnePiece
+                <img src="./assets/images/logo-herbolaria-andina.png" alt="Herbolaria Andica"> Herbolaria Andina
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -27,16 +27,16 @@
                         <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Los oradores</a>
+                        <a class="nav-link" href="#">Nuestros productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">El lugar y fecha</a>
+                        <a class="nav-link" href="#">Integrantes del proyecto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conviértete en orador</a>
+                        <a class="nav-link" href="#">Conocenos más</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-comprar" href="#">Comprar tickets</a>
+                        <a class="nav-link text-comprar" href="#">Conviértete en inversor</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
     <!-- /Header -->
 
     <!-- Main -->
-    <main id="main">
+    <!-- <main id="main">
         <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -76,7 +76,45 @@
                 </div>
             </div>
         </div>
+    </main> -->
+    <main id="main">
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- <video class="d-block w-100" autoplay muted loop>
+                        <source src="./assets/images/arbolaria-andina-2.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video> -->
+                    <video class="d-block w-100 video-responsive" autoplay muted loop>
+                        <source src="./assets/images/arbolaria-video-2.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
+                    
+                    <style>
+                        .video-responsive {
+                            max-height: 90vh; /* Altura máxima: 100% de la pantalla */
+                            object-fit: cover; /* Ajusta el contenido para llenar el espacio */
+                        }
+                    </style>
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="offset-md-6 col-md-6 text-center text-md-end">
+                                <h1>¡Herbolaria Andina te invita!</h1>
+                                <p class="d-none d-md-block">Descubre los secretos de nuestras infusiones en una presentación única que se realizará en el Mall de San Juan de Lurigancho a las 5:00 pm, Zona Oasis. Donde aprenderás sobre nuestras fórmulas y sentirás el sabor de la naturaleza.
+                                    ¡No te lo pierdas! 🌿
+
+                                <a href="#" class="btn btn-outline-light">Nuestros productos</a>
+                                <button type="button" class="btn btn-one-piece">Quiero ser inversor</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    
     <!-- /Main -->
 
     <!-- Speakers -->
@@ -84,19 +122,20 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center text-uppercase">
-                    <small>Conoce a los</small>
-                    <h2>Oradores</h2>
+                    <small>Conoce Nuestros</small>
+                    <h2>Productos</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="./assets/images/luffy-solo.jpeg" class="card-img-top img-card" alt="Luffy">
+                        <img src="./assets/images/cumbre-andina.jpeg" class="card-img-top img-card" alt="Cumbre Andina">
                         <div class="card-body">
-                            <h5 class="card-title mb-0">Luffy</h5>
+                            <h5 class="card-title mb-0">Cumbre Andina</h5>
                             <div class="badges mb-2">
-                                <span class="badge bg-warning">Pirata</span>
-                                <span class="badge bg-info">Bandido</span>
+                                <span class="badge bg-warning">Muña</span>
+                                <span class="badge bg-info">Hierva Luisa</span>
+                                <span class="badge bg-info">Geranio</span>
                             </div>
                             <p class="card-text">¡Hola a todos! Soy Monkey D. Luffy, el futuro rey de los piratas.
                                 Estoy
@@ -108,12 +147,13 @@
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="./assets/images/zoro-solo.jpg" class="card-img-top img-card" alt="Zoro">
+                        <img src="./assets/images/digestivo-andino.jpeg" class="card-img-top img-card" alt="Digestivo Andino">
                         <div class="card-body">
-                            <h5 class="card-title mb-0">Zoro</h5>
+                            <h5 class="card-title mb-0">Digestivo Andino</h5>
                             <div class="badges mb-2">
-                                <span class="badge bg-warning">Espadachín</span>
-                                <span class="badge bg-info">Cazarrecompenzas</span>
+                                <span class="badge bg-warning">Muña</span>
+                                <span class="badge bg-info">Paico</span>
+                                <span class="badge bg-info">Anís</span>
                             </div>
                             <p class="card-text">Saludos a todos, soy Zoro Roronoa, el espadachín y fiel compañero
                                 de
@@ -126,12 +166,13 @@
                 </div>
                 <div class="col-sm-6 col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="./assets/images/zenjin-solo.jpg" class="card-img-top img-card" alt="Sanji">
+                        <img src="./assets/images/respira-libre.jpeg" class="card-img-top img-card" alt="Respira Libre">
                         <div class="card-body">
-                            <h5 class="card-title mb-0">Sanji</h5>
+                            <h5 class="card-title mb-0">Respira Libre</h5>
                             <div class="badges mb-2">
-                                <span class="badge bg-warning">Príncipe</span>
-                                <span class="badge bg-info">Cocinero Pirata</span>
+                                <span class="badge bg-warning">Eucalipto</span>
+                                <span class="badge bg-info">Jamaica</span>
+                                <span class="badge bg-info">Hierva Luisa</span>
                             </div>
                             <p class="card-text">¡Hola a todos! Me llamo Sanji y soy el cocinero del equipo. Estoy
                                 emocionado de compartir
@@ -152,10 +193,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-6 ps-0 pe-0">
-                    <img src="./assets/images/machupichu.jpg" alt="Machupichu">
+                    <img src="./assets/images/integrantes.jpeg" alt="Integrantes">
                 </div>
                 <div class="col-12 col-lg-6 pt-2 pb-2">
-                    <h2>Machupichu - 18 de Febrero del 2024</h2>
+                    <h2>Conoce nuestras metas</h2>
                     <p>
                         Machu Picchu es una ciudadela inca ubicada en las alturas de las montañas de los
                         Andes en Perú, sobre el valle del río Urubamba. Se construyó en el siglo XV y luego
@@ -177,7 +218,7 @@
             <div class="row">
                 <div class="col text-uppercase text-center">
                     <small>Conviertete en un</small>
-                    <h2>Orador</h2>
+                    <h2>Inversor</h2>
                     <form action="">
                         <div class="row">
                             <div class="col text-center">Anotate como orador para dar una charla <abbr

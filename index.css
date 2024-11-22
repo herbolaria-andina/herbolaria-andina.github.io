@@ -1,12 +1,12 @@
 :root {
-    --color-base: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+    --color-base: #E1D5BD;
 }
 .btn-one-piece {
-    background-color: cadetblue;
-    color: white;
+    background-color: #E1D5BD;
+    color: #60594c;
 }
 .text-comprar {
-    color: darkturquoise !important;
+    color: #371401 !important;
 }
 #header img {
     width: 85px;
@@ -38,8 +38,8 @@
     object-fit: cover;
 }
 #place-time {
-    background-color: #343a40;
-    color: white;
+    background-color: #E1D5BD;
+    color: #60594c;
 }
 #place-time img {
     max-width: 100%;
@@ -48,5 +48,41 @@
     background: var(--color-base);
 }
 #footer a {
-    color: white;
+    color: #60594c;
+}
+
+/* Fondo y texto de la barra de navegación */
+#header {
+    background-color: #c9b58c !important; /* Fondo de la barra */
+}
+
+#header .navbar-brand {
+    color: #353214; /* Color del texto */
+    font-weight: 700; /* Hace el texto más grueso */
+}
+
+
+#header .nav-link {
+    color: #60594c; /* Color del texto */
+    font-weight: 600; /* Hace el texto más grueso */
+    letter-spacing: 0.5px; /* Espaciamiento entre letras */
+}
+
+#header .nav-link:hover {
+    color: #353214; /* Color al pasar el mouse */
+    font-weight: 800;
+}
+
+/* Botón hamburguesa en móviles */
+#header .navbar-toggler {
+    border-color: #60594c; /* Borde del botón */
+}
+
+#header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2360594c' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#header .nav-link.active {
+    color: #ffffff;  /* Cambia al color de tu preferencia cuando se activa */
+    font-weight: 700; /* Opcional: hace que el texto activo se vea más grueso */
 }
